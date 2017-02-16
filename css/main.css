@@ -228,7 +228,7 @@ h5, h6          { font-weight: bolder }
     margin: 0px;
     padding: 0px;
     z-index: -9999;
-    background: #50cda7 url('../img/bg_img.jpg') no-repeat;
+    background: #50cda7 url('../img/bg_img_raw.jpg') no-repeat;
     background-position: center 0;
     overflow: hidden;
 
@@ -238,6 +238,43 @@ h5, h6          { font-weight: bolder }
     background-size: cover;
 }
 
+.gradient_back_img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: -9999;
+    background: #50cda7 url('../img/bg_img.jpg') no-repeat;
+    background-position: center 0;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg_gradient{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: -888;
+    background: #50cda7;
+    background: -moz-linear-gradient(top,  rgba(185, 85, 218, .9) 0%, rgba(81, 179, 160, .9) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(185, 85, 218, .9)), color-stop(100%,rgba(81, 179, 160, .9)));
+    background: -webkit-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%); 
+    background: -o-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%); 
+    background: -ms-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%); 
+    background: linear-gradient(to bottom,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(185, 85, 218, .9)', endColorstr='rgba(81, 179, 160, .9)',GradientType=0 );
+
+}
 /*Counter*/
 .counter{
     margin-top: 40px;

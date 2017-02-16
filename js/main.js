@@ -33,7 +33,7 @@ $(document).ready(function(){
       "img/bg_img3.jpg"
     ], {
         fade: 750,
-        duration: 2500
+        duration: 14500
     });
 
 
